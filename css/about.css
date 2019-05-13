@@ -1,0 +1,63 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 10px;
+	height: 15vh;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 20vh;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	grid-gap: 2px;
+	padding: 10px;	
+	color: #EE2E23;
+	border: 3px #EE2E23 solid;
+	font-family: Bebas Neue;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/about.jpeg);
+	background-size: cover;
+}
+
+.trek {
+	height: 55vh;
+	margin-bottom: 10px;
+}
+
+video {
+	height: 55vh;
+	position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.footer {
+	height: 25vh;
+	border: 3px #EE2E23 solid;
+	font-family: Bebas Neue;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 35px;
+}
